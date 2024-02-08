@@ -22,7 +22,7 @@ public class Connection {
     
     public MongoDatabase connectToDatabase(){
         
-        ConnectionString connectionString = new ConnectionString("mongodb+srv://patelhet04:aed123@aedcluster.ejnshgh.mongodb.net/?retryWrites=true&w=majority");
+        ConnectionString connectionString = new ConnectionString("");
         
         CodecRegistry pojoCodecRegistry = fromProviders(PojoCodecProvider.builder().automatic(true).build());
         
